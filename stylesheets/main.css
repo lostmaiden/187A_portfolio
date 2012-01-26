@@ -1,0 +1,25 @@
+.leftnavi {
+  color: #717241;
+  background: #bec7a9;
+  padding: 25px 5px 5px 20px;
+}
+
+.main {
+  color: #717241;
+  padding: 0px 5px 5px 20px;
+  letter-spacing: .6pt; 
+}
+
+.footer {
+  color: #717241;
+  padding: 30px 5px 20px 5px;
+  letter-spacing: .2pt; 
+  text-align: center;
+}
+
+body {
+background-color: #aebc93;
+font-family: georgia;
+color: #717241; 
+letter-spacing: .2pt; 
+}

@@ -228,14 +228,15 @@ body {
   margin-left: 240px;
 }
 a {
-  color: #0069d6;
+  color: #4b7462;
   text-decoration: none;
   line-height: inherit;
-  font-weight: inherit;
+  font-weight: bold;
+  font-size: 11pt;
 }
 a:hover {
-  color: #00438a;
-  text-decoration: underline;
+  color: #caf3f4;
+  text-decoration: none;
 }
 .pull-right {
   float: right;
@@ -390,13 +391,13 @@ a:hover {
  * Headings, body text, lists, code, and more for a versatile and durable typography system
  * ---------------------------------------------------------------------------------------- */
 p {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 18px;
   margin-bottom: 9px;
 }
 p small {
-  font-size: 11px;
+  font-size: 14px;
   color: #bfbfbf;
 }
 h1,
@@ -405,8 +406,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
-  color: #404040;
+  font-weight: normal;
+  background: #799a96;
+  letter-spacing: 4pt; 
+  color: #e3ebd4;
+  padding: 5px 0px 0px 10px;
 }
 h1 small,
 h2 small,
@@ -599,13 +603,14 @@ form .clearfix:before, form .clearfix:after {
 form .clearfix:after {
   clear: both;
 }
-label,
+
 input,
 select,
 textarea {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
+  background: #cde1a0;
   line-height: normal;
 }
 label {
@@ -615,7 +620,7 @@ label {
   float: left;
   width: 130px;
   text-align: right;
-  color: #404040;
+  color: #767a37;
 }
 form .input {
   margin-left: 150px;
@@ -1052,7 +1057,7 @@ textarea[readonly] {
   float: left;
 }
 .form-stacked {
-  padding-left: 20px;
+  padding-left: 15px;
 }
 .form-stacked fieldset {
   padding-top: 9px;
@@ -1064,13 +1069,15 @@ textarea[readonly] {
   display: block;
   float: none;
   width: auto;
-  font-weight: bold;
+  font-weight: none;
   text-align: left;
   line-height: 20px;
-  padding-top: 0;
+  padding-top: 8px;
+  padding-left: 2px;
+  
 }
 .form-stacked .clearfix {
-  margin-bottom: 9px;
+  margin-bottom: 20px;
 }
 .form-stacked .clearfix div.input {
   margin-left: 0;
@@ -1841,18 +1848,18 @@ footer {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
 .btn.success, .alert-message.success {
-  background-color: #57a957;
+  background-color: #92b54e;
   background-repeat: repeat-x;
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#62c462), to(#57a957));
-  background-image: -moz-linear-gradient(top, #62c462, #57a957);
-  background-image: -ms-linear-gradient(top, #62c462, #57a957);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #62c462), color-stop(100%, #57a957));
-  background-image: -webkit-linear-gradient(top, #62c462, #57a957);
-  background-image: -o-linear-gradient(top, #62c462, #57a957);
-  background-image: linear-gradient(top, #62c462, #57a957);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#62c462', endColorstr='#57a957', GradientType=0);
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#aebc93), to(#92b54e));
+  background-image: -moz-linear-gradient(top, #aebc93, #92b54e);
+  background-image: -ms-linear-gradient(top, #aebc93, #92b54e);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aebc93), color-stop(100%, #57a957));
+  background-image: -webkit-linear-gradient(top, #aebc93, #92b54e);
+  background-image: -o-linear-gradient(top, #aebc93, #92b54e);
+  background-image: linear-gradient(top, #aebc93, #92b54e);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aebc93', endColorstr='#92b54e', GradientType=0);
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  border-color: #57a957 #57a957 #3d773d;
+  border-color: #92b54e #92b54e #3d773d;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
 .btn.info, .alert-message.info {
